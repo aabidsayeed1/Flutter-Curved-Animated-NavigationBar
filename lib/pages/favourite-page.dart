@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+class FavouritePage extends StatelessWidget {
+  const FavouritePage({ Key? key }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor:Colors.yellow,
+      body: Center(
+        child: Text('Heart',
+        style: TextStyle(fontSize:40),
+      ),
+    )
+    );
+  }
+}
